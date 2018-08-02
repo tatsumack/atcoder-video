@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "AtCoder Video",
+    "description": "AtCoder解説放送へのリンクを追加します",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://beta.atcoder.jp/contests/*",
+                "https://*.contest.atcoder.jp/*"
+            ],
+            "js": [
+                "js/jquery-3.3.1.min.js",
+                "js/main.js"
+            ]
+        }
+    ],
+    "permissions": [
+        "https://script.google.com/"
+    ]
+}
