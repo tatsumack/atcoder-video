@@ -3,7 +3,7 @@ AtCoderのコンテストページに解説放送へのリンクを追加する�
 
 <img src="https://github.com/tatsumack/atcoder-video/blob/master/img/thumnail.png" width="320px">
 
-# インストール
+## インストール
 
 chrome拡張 https://chrome.google.com/webstore/detail/atcoder-video/jadnedpkpbpaaffekefhfbcjhjficbil/ 
 
