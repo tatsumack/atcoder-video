@@ -28,11 +28,9 @@
     const cacheMin = 10;
 
     function onSuccess(data) {
-        console.log(data);
         localStorage.setItem(cacheDataKey, JSON.stringify(data));
 
         let videoId = getVideoId(data);
-        console.log(videoId);
         draw(videoId);
     }
 
@@ -44,8 +42,6 @@
         if (!contestType) return;
 
         const contestNo = contestName.substr(3, 3);
-        console.log(contestType);
-        console.log(contestNo);
 
         let videoId = "";
         data.contents.forEach(function (item) {
