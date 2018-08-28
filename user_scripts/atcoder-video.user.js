@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name           AtCoder Video
 // @namespace      tatsumack
-// @version        0.1.0
+// @version        0.1.1
 // @description    AtCoderコンテストページに解説放送へのリンクを追加します
 // @author         tatsumack
 // @license        MIT
